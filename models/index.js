@@ -1,7 +1,7 @@
 const User = require('./User')
-const Blog = require('./Blog')
+const Post = require('./Post')
 
-User.hasMany(Blog, {
+User.hasMany(Post, {
     foreignKey: 'user_id'
 })
 
@@ -9,4 +9,4 @@ Blog.belongsTo(User, {
     foreignKey: 'user_id'
 })
 
-module.exports = { User, Blog}
+module.exports = { User, Post}
