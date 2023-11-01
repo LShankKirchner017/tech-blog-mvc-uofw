@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Why MVC is important",
+    "content": "MVC allows web developers to create a separation of concerns, using their code between the model layer for data, the view layer for design, and the Controller layer for application logic "
+  },
+
+  {
+    "title": "Object-Relational Mapping",
+    "content": "Learning about ORMs has been really fun! It is a super simple way to create queries in SQL"
+  }
+]
